@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn Comment Extractor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LinkedIn Comment Extractor</h1>
+    <form id="login-form">
+      <input type="email" id="email" placeholder="LinkedIn Email" required>
+      <input type="password" id="password" placeholder="LinkedIn Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <form id="url-form" style="display: none;">
+      <input type="url" id="post-url" placeholder="LinkedIn Post URL" required>
+      <button type="submit">Extract Comments</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
